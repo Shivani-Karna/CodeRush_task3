@@ -1,3 +1,4 @@
+import React from "react";
 import {
   AppBar,
   CssBaseline,
@@ -11,35 +12,36 @@ import {
   CardContent,
   CardActions,
 } from "@mui/material";
-import React from "react";
+
 const HomePage1 = () => {
   return (
     <React.Fragment>
       <CssBaseline />
       <AppBar position="relative" color="secondary">
         <Toolbar>
-          <Typography variant="h6">Posts</Typography>
+          <Typography variant="h5">Learning</Typography>
+          <Typography style={{ marginLeft: "auto" }}>Posts</Typography>
+          <Typography style={{ marginLeft: "20px" }}>About</Typography>
+          <Typography style={{ marginLeft: "20px" }}>Home</Typography>
         </Toolbar>
       </AppBar>
+
       <main>
         <Grid>
           <Container>
             <Typography variant="h3" align="center">
               Posts
             </Typography>
-            <Typography variant="h6" color="textSecondary" align="center">
+            <Typography variant="body2" color="textSecondary" align="center">
               Code Rush works as a gateway to the convergence of talent and
               opportunity. We create a seamless integration of talent into the
               tech landscape through tailored curation and skill cultivation.
+              Our firm belief is that the heart of any company, irrespective of
+              its size, lies in its talent. Capable and right talent creates a
+              foundation through which any organization thrives. Thus, we help
+              organizations expand beyond traditional recruitment, we act as a
+              strategic partner in shaping and sustaining a workforce.
             </Typography>
-            <Grid container justifyContent="center" spacing={2}>
-              <Grid item>
-                <Button variant="contained">Primary Button</Button>
-              </Grid>
-              <Grid item>
-                <Button variant="contained">Secondary Button</Button>
-              </Grid>
-            </Grid>
           </Container>
           <Grid mt={3}>
             <Container>
