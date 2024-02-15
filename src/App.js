@@ -1,13 +1,12 @@
 import React from "react";
-// import CountrySelect from "./MaterialUi/Autocomplete";
-import Navbar from "./MaterialUi/Navbar";
 import HomePage from "./MaterialUi/HomePage";
+import HomePage1 from "./MaterialUi/HomePage1";
+// import CountrySelect from "./MaterialUi/Autocomplete";
 
 function App() {
   return (
     <React.Fragment>
-      <Navbar />
-      <HomePage />
+      <HomePage1 />
     </React.Fragment>
   );
 }
